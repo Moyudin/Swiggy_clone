@@ -1,0 +1,21 @@
+.background-img{
+  background-image: url(images/food-bg.jpg);
+}
+.a1{
+  text-decoration: none;
+  color: white;
+}
+.a1:hover {
+  color: white;
+  font-weight: bold;
+}
+.a3:hover{
+  color: #FC8019;
+}
+.btn-store:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
+@media screen and (max-width:991px){
+  #t2{text-align: center;}
+}
