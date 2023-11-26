@@ -1,5 +1,14 @@
+
 .background-img{
   background-image: url(images/food-bg.jpg);
+}
+@media screen and (min-width:991px){
+  #img-logo{
+    width: 35%;
+  }
+  #btn1{
+    width: 110px;
+  }
 }
 .a1{
   text-decoration: none;
@@ -17,5 +26,8 @@
   transition: transform 0.2s;
 }
 @media screen and (max-width:991px){
+  #img-logo{
+    width: 50%;
+  }
   #t2{text-align: center;}
 }
